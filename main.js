@@ -12,8 +12,8 @@ function dataTimes(){
     let month = data.getMonth();
     let day = data.getDate();
 
-    dates.innerHTML = ( year + "/" + ("0" + month + 1).slice(-2) + "/" + ("0" + day).slice(-2) );
     times.innerHTML = ( ("0" + hour).slice(-2) + ":" + ("0" + min).slice(-2) + ":" + ("0" + sec).slice(-2) );
+    dates.innerHTML = ( year + "/" + ("0" + month + 1).slice(-2) + "/" + ("0" + day).slice(-2) );
 }
 
 window.onload = function(){
